@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100;
+    font-family: Bell MT;
+}
+.div,section,span,ul,li,a,header{
+    box-sizing:border-box;
+}
+/*Navigation Started*/
+.logo{
+    position: auto;
+    height: auto;
+    left: opx;
+    width: 100px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items:center;
+    position: fixed;
+    z-index: 999;
+}
+#menu  li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+   
+}
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Navigation Finish */
+
+/* Section Size start */
+section{
+    width: 100%;
+    float:left;
+    height: 100vh;
+}
+/* Section Size finish */
+
+
+/* css of home page started */
+.divmain{
+    width: 90%;
+    margin: auto;
+   
+    margin-top: 50px;
+    height: 500px;
+   
+}
+.divleft
+{
+    width: 45%;
+    height: 500px;
+  
+    float: left;
+}
+.divright{
+    width: 45%;
+    height: 500px;
+    margin-top: 70px;
+    float: right;
+}
+.style_submit{
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 50px;
+    width:40% ;
+    border-radius: 10px;
+   
+}
+
+/* css of home page finish  */
+
+
+
+/* css of template page */
+.divmain_temp{
+    width: 90%;
+    margin: auto;
+   
+    margin-top: 50px;
+    height: 50px;
+}
+.divleft_temp
+{
+    width: 45%;
+    height: 50px;
+  
+    float: left;
+}
+.divright_temp{
+    width: 45%;
+    height: 50px;
+    margin-top: 70px;
+    float: right;
+    
+}
+
+/* SECTION templates design */
+.design_templates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.design_templates .design_templates-item {
+    position: relative;
+    /* width: 300px; */
+    width: 25rem;
+    height: 15rem;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    border: 5px solid rgb(228, 228, 228);
+}
+.design_templates .design_templates-item img {
+    width: 100%;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 15px;
+    z-index: -1;
+}
+.design_templates .design_templates-item .items-details {
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.design_templates .design_templates-item .items-details p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;    
+}
+.design_templates .design_templates-item:hover {
+    box-shadow: 0px 1px 2px rgba(207, 207, 207, 0.5);
+    transition: all 0.1s;
+}
+/* Template page finish */
+
+
+/* Create  Page Started */
+#create{
+    background-color: #1f2224;
+    width: 100%;
+    float:left;
+    height: 70vh;
+}
+.divmain_create{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 300px;
+    
+}
+.divleft_create{
+    width: 45%;
+    height: 300px;
+    float: left;
+}
+.divright_create{
+    width: 45%;
+    height: 300px;
+    margin-top: 70px;
+    float: right;
+}
+
+/* Footer Part */
+.footer{
+    margin-top: 100px;
+    width: 90%;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align:center;
+}
+.col-1,.col-2,.col-3{
+
+    flex-grow: 2;
+}
+.col-1 a,.col-2 a,.col-3 a{
+    display: block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 10px; 
+    margin-left: 30px;
+    
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.social_icons{
+    align-items: center;
+    margin-top: 30px;
+}
+.social_icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/*  Create_Bloag Page CSS Starts */
+.container {
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 90%;
+}
+form {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+.button_create {
+
+    background-color: black;
+    color: #fff;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: Bell MT;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 50px;
+    width:40% ;
+    border-radius: 10px;
+}
+
+.button_create:hover {
+    background-color:gray;
+
+}
+
+/* Create_Bloag page CSS Ends */
